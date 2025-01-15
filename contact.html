@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p><h1>株式会社フリーヒルズラボ</h1></p>
+        <p><h2>～AIとWebアプリ開発で「ものづくり」を支える愛知工業大学発スタートアップ！～</h2></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">トップページ</a></li>
+            <li><a href="about.html">企業概要</a></li>
+            <li><a href="services.html">製品・サービス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="mailto:hnonaka@aitech.ac.jp" method="post" enctype="text/plain">
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">お問い合わせ内容:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 株式会社フリーヒルズラボ</p>
+    </footer>
+</body>
+</html>
